@@ -1,0 +1,17 @@
+[project]
+name = "dummy-pypkg"
+version = "0.1.0"
+license = "GPL-3.0-or-later"
+description = ""
+authors = [
+    {name = "Ghislain Durif",email = "gd.dev@libertymail.net"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "tensorflow>=2.14.0"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
